@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Doces da Anna</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Doces da Anna</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Início</a></li>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <h2>Os melhores doces sob encomenda!</h2>
+      <p>Feitos com amor, perfeitos para qualquer ocasião.</p>
+    </section>
+
+    <section id="produtos">
+      <h2>Nossos Produtos</h2>
+      <div class="produtos-container">
+        <div class="produto">
+          <img src="https://via.placeholder.com/150" alt="Bolo de chocolate">
+          <h3>Bolo de Chocolate</h3>
+          <p>A partir de R$ 50,00</p>
+        </div>
+        <div class="produto">
+          <img src="https://via.placeholder.com/150" alt="Brigadeiros gourmet">
+          <h3>Brigadeiros Gourmet</h3>
+          <p>A partir de R$ 25,00 (12 unidades)</p>
+        </div>
+        <div class="produto">
+          <img src="https://via.placeholder.com/150" alt="Cupcakes personalizados">
+          <h3>Cupcakes Personalizados</h3>
+          <p>A partir de R$ 40,00 (6 unidades)</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <h2>Entre em Contato</h2>
+      <form id="formContato">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2024 Doces da Anna - Todos os direitos reservados.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
